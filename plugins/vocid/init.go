@@ -1,4 +1,4 @@
-package foo
+package vocid
 
 import (
 	"github.com/infinitybotlist/sysmanage-web/plugins/frontend"
@@ -8,7 +8,7 @@ import (
 func InitPlugin(c *types.PluginConfig) error {
 	frontend.AddLink(c, frontend.Link{
 		Title:       "Vocid",
-		Description: "Open the Vocid panel.",
+		Description: "Open the Vocid panel",
 		LinkText:    "Open!",
 		Href:        "@root",
 	})

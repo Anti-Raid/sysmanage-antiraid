@@ -1,7 +1,7 @@
 package main
 
 import (
-	"sysmanage/plugins/foo"
+	"sysmanage/plugins/vocid"
 
 	"github.com/infinitybotlist/sysmanage-web/plugins/actions"
 	"github.com/infinitybotlist/sysmanage-web/plugins/frontend"
@@ -39,11 +39,11 @@ var meta = types.ServerMeta{
 		"frontend": {
 			Init: frontend.InitPlugin,
 		},
-		// Example of a custom plugin
-		"foo": {
-			Init: foo.InitPlugin,
+		// Vocid
+		"vocid": {
+			Init: vocid.InitPlugin,
 			Frontend: types.Provider{
-				Provider: "frontend/extplugins/foo", // This is the path to the plugin's frontend
+				Provider: "frontend/extplugins/vocid", // This is the path to the plugin's frontend
 			},
 		},
 	},
