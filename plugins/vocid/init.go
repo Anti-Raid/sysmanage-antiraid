@@ -7,9 +7,9 @@ import (
 
 func InitPlugin(c *types.PluginConfig) error {
 	frontend.AddLink(c, frontend.Link{
-		Title:       "Foo",
-		Description: "This is a foo link",
-		LinkText:    "Foo",
+		Title:       "Vocid",
+		Description: "Open the Vocid panel.",
+		LinkText:    "Open!",
 		Href:        "@root",
 	})
 
