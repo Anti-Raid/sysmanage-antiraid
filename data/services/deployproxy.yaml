@@ -1,0 +1,5 @@
+cmd: "/root/system/deployproxy/deployproxy"
+dir: "/root/system/deployproxy"
+target: antiraid
+after: network
+description: DeployProxy [v4]

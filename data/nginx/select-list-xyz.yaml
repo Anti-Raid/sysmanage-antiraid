@@ -1,0 +1,29 @@
+servers:
+    - id: API
+      names:
+        - api
+      comment: Official API for Select List
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:7321
+          opts: []
+    - id: RPC
+      names:
+        - rpc
+      comment: Official RPC API for Select List staff actions.
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:7322
+          opts: []
+    - id: Bromladide
+      names:
+        - bromladide
+      comment: A staff onboarding bot for Select List. Simplifies the process by guiding new staff through selectable options for efficient and user-friendly onboarding.
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:3374
+          opts: []
+real_name: select-list.xyz

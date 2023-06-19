@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /home/select/Select List/api
+target: selectlist
+description: Official API for Select List.
+after: ibl-maint
+broken: false
+user: select
+group: ""

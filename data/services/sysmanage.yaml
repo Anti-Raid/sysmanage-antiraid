@@ -1,0 +1,6 @@
+cmd: /root/system/sysmanage-ibl/sysmanage-ibl
+dir: /root/system/sysmanage-ibl
+target: antiraid
+description: System Management [v4]
+after: network
+broken: false

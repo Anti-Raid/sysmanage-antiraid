@@ -1,0 +1,8 @@
+cmd: ' /usr/local/bin/uvicorn maint_stub:app --port 48294'
+dir: /root/system
+target: antiraid
+description: ibl-maint stub
+after: network
+broken: false
+user: ""
+group: ""

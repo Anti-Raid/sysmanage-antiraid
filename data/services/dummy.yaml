@@ -1,0 +1,8 @@
+cmd: /usr/bin/
+dir: /root/
+target: antiraid
+description: dummy service
+after: network
+broken: true
+user: ""
+group: ""

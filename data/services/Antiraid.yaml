@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /root/antiraid
+target: antiraid
+description: Official discord bot for Antiraid
+after: ibl-maint
+broken: false
+user: ""
+group: ""

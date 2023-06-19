@@ -1,0 +1,7 @@
+targets:
+    - name: antiraid
+      description: Anti-Raid
+    - name: selectlist
+      description: Select List
+    - name: azidoazide
+      description: azidoazide

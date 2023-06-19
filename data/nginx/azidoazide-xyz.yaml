@@ -1,0 +1,20 @@
+servers:
+    - id: API
+      names:
+        - api
+      comment: Official API for Azidoazide
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:5590
+          opts: []
+    - id: Dev-API
+      names:
+        - dev-api
+      comment: Official API for Azidoazide (but unstable)
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:5591
+          opts: []
+real_name: ""

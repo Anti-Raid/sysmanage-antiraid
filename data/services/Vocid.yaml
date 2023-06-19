@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /root/vocid
+target: antiraid
+description: Official staff panel for Antiraid
+after: ibl-maint
+broken: false
+user: ""
+group: ""
