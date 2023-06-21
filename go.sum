@@ -3,6 +3,8 @@ github.com/Microsoft/go-winio v0.6.1 h1:9/kr64B9VUZrLm5YYwbGtUJnMgqWVOdUAXu6Migc
 github.com/Microsoft/go-winio v0.6.1/go.mod h1:LRdKpFKfdobln8UmuiYcKPot9D2v6svN5+sAH+4kjUM=
 github.com/ProtonMail/go-crypto v0.0.0-20230528122434-6f98819771a1 h1:JMDGhoQvXNTqH6Y3MC0IUw6tcZvaUdujNqzK2HYWZc8=
 github.com/ProtonMail/go-crypto v0.0.0-20230528122434-6f98819771a1/go.mod h1:EjAoLdwvbIOoOQr3ihjnSoLZRtE8azugULFRteWMNc0=
+github.com/ProtonMail/go-crypto v0.0.0-20230619160724-3fbb1f12458c h1:figwFwYep1Qnl64Y+Rc8tyQWE0xvYAN+5EX+rD40pTU=
+github.com/ProtonMail/go-crypto v0.0.0-20230619160724-3fbb1f12458c/go.mod h1:EjAoLdwvbIOoOQr3ihjnSoLZRtE8azugULFRteWMNc0=
 github.com/acomagu/bufpipe v1.0.4 h1:e3H4WUzM3npvo5uv95QuJM3cQspFNtFBzvJ2oNjKIDQ=
 github.com/acomagu/bufpipe v1.0.4/go.mod h1:mxdxdup/WdsKVreO5GpW4+M/1CE2sMG4jeGJ2sYmHc4=
 github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be h1:9AeTilPcZAjCFIImctFaOjnTIavg87rW78vTPkQqLI8=
@@ -14,6 +16,8 @@ github.com/cloudflare/cloudflare-go v0.68.0 h1:YmCaLt0lUqZwxJp6fTrFX2fjb0zQZoKS8
 github.com/cloudflare/cloudflare-go v0.68.0/go.mod h1:b6oSYwhXmZUdaF83Od/uefT092M41HHis/z6JFsT/kw=
 github.com/cloudflare/cloudflare-go v0.69.0 h1:DHRjCQyM0p4qd3e0t3wnUNtRso1BQPUe4BtMAxZjKqY=
 github.com/cloudflare/cloudflare-go v0.69.0/go.mod h1:A6gZktcMokwEgzoAP4BbVDoUU7VorNFAU7FzfIejVF8=
+github.com/cloudflare/cloudflare-go v0.70.0 h1:4opGbUygM8DjirUuaz23jn3akuAcnOCEx+0nQtQEcFo=
+github.com/cloudflare/cloudflare-go v0.70.0/go.mod h1:VW6GuazkaZ4xEDkFt24lkXQUsE8q7BiGqDniC2s8WEM=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
@@ -64,10 +68,14 @@ github.com/infinitybotlist/eureka v0.0.0-20230515105312-78ff9cf74f63 h1:jzvVBM0f
 github.com/infinitybotlist/eureka v0.0.0-20230515105312-78ff9cf74f63/go.mod h1:EncygsTKn7CRa8waGotqG+OpUDxZrwyNBTK47pvSWes=
 github.com/infinitybotlist/eureka v0.0.0-20230618182243-05756f05a15b h1:PeqF3DTvbkNnYsvquE8llbFXmeBkTjQ3Kc8hqB5D0ck=
 github.com/infinitybotlist/eureka v0.0.0-20230618182243-05756f05a15b/go.mod h1:W2sJbZywcaMfd1aaW6kJxKBD+Z1oSKjH1hxSabY22BM=
+github.com/infinitybotlist/eureka v0.0.0-20230619185914-86d810f662ff h1:E+svmkkau1th4ptQsjE+ibs6ZxqGR3tmFNCb8JEofg0=
+github.com/infinitybotlist/eureka v0.0.0-20230619185914-86d810f662ff/go.mod h1:W2sJbZywcaMfd1aaW6kJxKBD+Z1oSKjH1hxSabY22BM=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20230604045423-ecd0c1fa1cfd h1:KwZPU5HxQPIQZCCJyvV3lTNdJ4G2eQ2YhaMWTy6sPpw=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20230604045423-ecd0c1fa1cfd/go.mod h1:kLjMWTbsgY43/SBEOTHm0QNe3c+ySjEH8ppIAQd+r7k=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20230619053007-e9badaa1c8fb h1:2UyUe1K01xnNbQPBf+oTsE0sDKoAYO/aLJ2M8z8m+xE=
 github.com/infinitybotlist/sysmanage-web v0.0.0-20230619053007-e9badaa1c8fb/go.mod h1:kLjMWTbsgY43/SBEOTHm0QNe3c+ySjEH8ppIAQd+r7k=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20230621143149-2daae2a63ca6 h1:j2Elg/duRRPGKhXNUe3YCWvH3IjjvoXHySWzVslm6Vo=
+github.com/infinitybotlist/sysmanage-web v0.0.0-20230621143149-2daae2a63ca6/go.mod h1:kLjMWTbsgY43/SBEOTHm0QNe3c+ySjEH8ppIAQd+r7k=
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 h1:BQSFePA1RWJOlocH6Fxy8MmwDt+yVQYULKfN0RoTN8A=
 github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99/go.mod h1:1lJo3i6rXxKeerYnT8Nvf0QmHCRC1n8sfWVwXF2Frvo=
 github.com/kevinburke/ssh_config v1.2.0 h1:x584FjTGwHzMwvHx18PXxbBVzfnxogHaAReU4gf13a4=

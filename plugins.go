@@ -12,35 +12,42 @@ import (
 )
 
 var meta = types.ServerMeta{
-	Plugins: map[string]types.Plugin{
-		"nginx": {
+	ConfigVersion: 1,
+	Plugins: []types.Plugin{
+		{
+			ID: nginx.ID,
 			Init: nginx.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
-		"systemd": {
+		{
+			ID: systemd.ID,
 			Init: systemd.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
 		// Persist has no frotend, it is a backend plugin
-		"persist": {
+		{
+			ID: persist.ID,
 			Init: persist.InitPlugin,
 		},
-		"actions": {
+		{
+			ID: actions.ID,
 			Init: actions.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
 		// Frontend has no frontend, it is a backend plugin
-		"frontend": {
+		{
+			ID: frontend.ID,
 			Init: frontend.InitPlugin,
 		},
 		// Vocid
-		"vocid": {
+		{
+			ID: vocid.ID,
 			Init: vocid.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "frontend/extplugins/vocid", // This is the path to the plugin's frontend
