@@ -1,8 +1,0 @@
-cmd: /usr/bin/npm run dev
-dir: /root/maint
-target: antiraid
-description: Maint
-after: ibl-maint
-broken: false
-user: ""
-group: ""
