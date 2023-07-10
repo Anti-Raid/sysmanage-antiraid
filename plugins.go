@@ -5,6 +5,7 @@ import (
 
 	"github.com/infinitybotlist/sysmanage-web/plugins/actions"
 	"github.com/infinitybotlist/sysmanage-web/plugins/frontend"
+	"github.com/infinitybotlist/sysmanage-web/plugins/logger"
 	"github.com/infinitybotlist/sysmanage-web/plugins/nginx"
 	"github.com/infinitybotlist/sysmanage-web/plugins/persist"
 	"github.com/infinitybotlist/sysmanage-web/plugins/systemd"
@@ -15,14 +16,14 @@ var meta = types.ServerMeta{
 	ConfigVersion: 1,
 	Plugins: []types.Plugin{
 		{
-			ID: nginx.ID,
+			ID:   nginx.ID,
 			Init: nginx.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
 		{
-			ID: systemd.ID,
+			ID:   systemd.ID,
 			Init: systemd.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
@@ -30,24 +31,29 @@ var meta = types.ServerMeta{
 		},
 		// Persist has no frotend, it is a backend plugin
 		{
-			ID: persist.ID,
+			ID:   persist.ID,
 			Init: persist.InitPlugin,
 		},
 		{
-			ID: actions.ID,
+			ID:   actions.ID,
 			Init: actions.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "@core",
 			},
 		},
+		{
+			ID:   logger.ID,
+			Init: logger.InitPlugin,
+		},
+
 		// Frontend has no frontend, it is a backend plugin
 		{
-			ID: frontend.ID,
+			ID:   frontend.ID,
 			Init: frontend.InitPlugin,
 		},
 		// Vocid
 		{
-			ID: vocid.ID,
+			ID:   vocid.ID,
 			Init: vocid.InitPlugin,
 			Frontend: types.Provider{
 				Provider: "frontend/extplugins/vocid", // This is the path to the plugin's frontend
