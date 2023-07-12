@@ -71,4 +71,13 @@ servers:
         - path: /
           proxy: http://localhost:2474
           opts: []
+    - id: Noteys
+      names:
+        - noteys
+      comment: Noteys API
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:1730
+          opts: []
 real_name: ""
