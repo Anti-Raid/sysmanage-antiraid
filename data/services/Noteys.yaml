@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm start
+dir: /root/noteys/API
+target: antiraid
+description: Noteys API
+after: ibl-maint
+broken: false
+user: ""
+group: ""
