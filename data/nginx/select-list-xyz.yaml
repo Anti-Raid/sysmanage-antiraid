@@ -33,6 +33,6 @@ servers:
       broken: false
       locations:
         - path: /
-          proxy: https://localhost:3871
+          proxy: http://localhost:3871
           opts: []
 real_name: select-list.xyz
