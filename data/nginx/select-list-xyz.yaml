@@ -26,4 +26,13 @@ servers:
         - path: /
           proxy: http://localhost:3374
           opts: []
+    - id: Trureadina
+      names:
+        - trureadina
+      comment: Experimental infrastructure for Select List (written in Golang)
+      broken: false
+      locations:
+        - path: /
+          proxy: https://localhost:3871
+          opts: []
 real_name: select-list.xyz
