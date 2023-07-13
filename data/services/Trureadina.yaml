@@ -1,5 +1,5 @@
-cmd: /Select List/Trureadina
-dir: /home/select
+cmd: /home/select/Select List/Trureadina
+dir: /home/select/Select List
 target: selectlist
 description: Experimental Infrastructure for Select List (written in Golang)
 after: ibl-maint
