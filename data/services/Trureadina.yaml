@@ -1,4 +1,4 @@
-cmd: ./home/select/Trureadina/Trureadina
+cmd: /home/select/Trureadina Trureadina
 dir: /home/select/Trureadina
 target: selectlist
 description: Experimental Infrastructure for Select List (written in Golang)
