@@ -1,0 +1,8 @@
+cmd: /usr/bin/npm run dev
+dir: /root/maint
+target: antiraid
+description: This is maint server
+after: ibl-maint
+broken: false
+user: ""
+group: ""
