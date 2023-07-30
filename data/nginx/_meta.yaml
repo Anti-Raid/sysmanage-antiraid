@@ -5,8 +5,8 @@ origin_cert_path: /certs/origin-pull-ca.pem # Path to the origin CA cert if any
 common: |
       # redirect server error pages to the static page /clouderror.html
       proxy_intercept_errors on;
-      error_page   502 503 504 =408 /maint/page;
+      error_page 502 503 504 =408 /maint/page;
       location = /maint/page {
-              root /var/www/html;
-              try_files /maint.html =404;
+          proxy_pass http://localhost:5173/;
       }
+
