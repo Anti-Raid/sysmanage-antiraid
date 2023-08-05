@@ -1,22 +1,4 @@
 servers:
-    - id: API
-      names:
-        - api
-      comment: Official API for Select List
-      broken: false
-      locations:
-        - path: /
-          proxy: http://localhost:7321
-          opts: []
-    - id: RPC
-      names:
-        - rpc
-      comment: Official RPC API for Select List staff actions.
-      broken: false
-      locations:
-        - path: /
-          proxy: http://localhost:7322
-          opts: []
     - id: Bromladide
       names:
         - bromladide
