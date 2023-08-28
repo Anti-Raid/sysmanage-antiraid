@@ -87,6 +87,6 @@ servers:
       broken: false
       locations:
         - path: /
-          proxy: https://localhost:4327
+          proxy: http://localhost:4327
           opts: []
 real_name: ""
