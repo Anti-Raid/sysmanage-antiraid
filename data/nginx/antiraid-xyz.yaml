@@ -80,4 +80,13 @@ servers:
         - path: /
           proxy: http://localhost:1730
           opts: []
+    - id: Trace
+      names:
+        - trace
+      comment: Trace Service
+      broken: false
+      locations:
+        - path: /
+          proxy: https://localhost:4327
+          opts: []
 real_name: ""
