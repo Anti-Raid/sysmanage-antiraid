@@ -17,4 +17,13 @@ servers:
         - path: /
           proxy: http://localhost:3871
           opts: []
+    - id: Trace
+      names:
+        - trace
+      comment: Trace Service
+      broken: false
+      locations:
+        - path: /
+          proxy: http://localhost:4327
+          opts: []
 real_name: select-list.xyz
